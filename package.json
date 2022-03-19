@@ -1,14 +1,24 @@
 {
     "name": "markdown-ast-to-tree",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "Transform markdown ast to a tree structure.",
+    "homepage": "https://github.com/cungen/markdown-ast-to-tree",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cungen/markdown-ast-to-tree.git"
+    },
+    "main": "src/index.js",
     "scripts": {
         "start": "node ./src/index.js",
         "test": "mocha"
     },
-    "author": "",
+    "author": "Cungen <1360571582@qq.com>",
     "license": "ISC",
+    "keywords": [
+        "markdown",
+        "ast",
+        "tree"
+    ],
     "devDependencies": {
         "chai": "^4.3.6",
         "mocha": "^9.2.2"
