@@ -34,7 +34,7 @@ function transform(node = {}, parents = []) {
             parents.push(current);
             break;
         case "paragraph":
-            if (["heading", "listItem"].includes(lastParent.type)) {
+            if (["listItem"].includes(lastParent.type)) {
                 lastParent.node = children.shift();
             } else {
                 lastParent.children.push(current);
