@@ -1,6 +1,6 @@
 {
     "name": "markdown-ast-to-tree",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Transform markdown ast to a tree structure.",
     "homepage": "https://github.com/cungen/markdown-ast-to-tree",
     "repository": {
